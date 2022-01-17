@@ -17,7 +17,6 @@ struct TicTacToeView: View {
                 .font(.headline)
             // MARK: - game board
             GameBoardView()
-                .border(Color.green)
             
             // MARK: - game reset button
             Button("Reset game") {
@@ -31,7 +30,6 @@ struct TicTacToeView: View {
                 Text("Tapping 'Yes' will reset the game board! Are you sure you wanna do that?")
             }
         }
-        .border(Color.green)
     }
 }
 
